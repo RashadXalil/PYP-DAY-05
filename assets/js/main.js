@@ -107,4 +107,4 @@ Array.prototype.customFlat = function () {
   return flatedArr
 }
 
-console.log(arr.customFlat())
+// console.log(arr.customFlat())
