@@ -1,4 +1,4 @@
-let arr = [1, 2, 3, 4, 5]
+let arr = [1, 2, 3, 4, 5,[[1,2,3]]]
 let stringArr = ['hmtl', 'css', 'sass', 'js']
 // Custom Map Func
 Array.prototype.customMap = function (cb) {
@@ -106,3 +106,5 @@ Array.prototype.customFlat = function () {
   }
   return flatedArr
 }
+
+console.log(arr.customFlat())
